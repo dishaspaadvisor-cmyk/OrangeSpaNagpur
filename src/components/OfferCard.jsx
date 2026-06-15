@@ -53,7 +53,6 @@ export default function OfferCards() {
               <div className="relative h-[500px]">
                 <Image
                   src={offer.image}
-                  alt={offer.title}
                   fill
                   className="object-cover transition duration-700 group-hover:scale-110"
                 />
