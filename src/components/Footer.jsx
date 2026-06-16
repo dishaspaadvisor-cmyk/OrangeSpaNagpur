@@ -197,7 +197,7 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-6">
-            <span className="transition hover:text-[#EC268F]">
+            <span className="transition hover:text-[#F97519]">
               Here Relaxation Meets Luxury and Wellness
            </span>
           </div>
