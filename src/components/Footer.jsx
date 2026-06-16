@@ -197,19 +197,9 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-6">
-            <Link
-              href="/privacy-policy"
-              className="transition hover:text-[#F97519]"
-            >
-              Privacy Policy
-            </Link>
-
-            <Link
-              href="/terms"
-              className="transition hover:text-[#F97519]"
-            >
-              Terms & Conditions
-            </Link>
+            <span className="transition hover:text-[#EC268F]">
+              Here Relaxation Meets Luxury and Wellness
+           </span>
           </div>
         </div>
       </div>
