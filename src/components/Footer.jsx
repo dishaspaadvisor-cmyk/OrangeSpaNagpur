@@ -23,11 +23,11 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="mb-6 text-3xl font-bold text-[#F97519]">
-              Bella Spa
+              Orange Spa
             </h3>
 
             <p className="leading-8 text-gray-300">
-              Premium spa and wellness experience in Chhatrapati Sambhaji Nagar.
+              Premium spa and wellness experience in Laxminagar, Nagpur Maharastra.
               Enjoy luxury massage therapies, peaceful ambience, professional
               care, and complete relaxation.
             </p>
@@ -166,7 +166,7 @@ export default function Footer() {
                   href="tel:+919371000458"
                   className="transition hover:text-[#F97519]"
                 >
-                  +91 9371000458
+                  +91 7030747904
                 </a>
               </div>
 
@@ -193,7 +193,7 @@ export default function Footer() {
       <div className="border-t border-zinc-800">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-gray-400 md:flex-row">
           <p>
-            © {new Date().getFullYear()} Bella Spa. All Rights Reserved.
+            © {new Date().getFullYear()} Orange Spa. All Rights Reserved.
           </p>
 
           <div className="flex gap-6">
