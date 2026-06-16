@@ -135,14 +135,63 @@ export default function Footer() {
               Our Services
             </h4>
 
-            <ul className="space-y-4 text-gray-300">
-              <li>Full Body Massage</li>
-              <li>Female to Male Massage</li>
-              <li>Four Hand Massage</li>
-              <li>Thai Massage</li>
-              <li>Deep Tissue Massage</li>
-              <li>Hot Oil Massage</li>
-              <li>Swedish Massage</li>
+             <ul className="space-y-4 text-gray-300">
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Full Body Massage 
+                </Link>
+             </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Female to Male Massage
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Four Hand Massage 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Thai Massage
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Deep Tissue Massage 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Hot Oil Massage 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-[#F97519]"
+                >
+                  Swedish Massage 
+                </Link>
+              </li>
             </ul>
           </div>
 
