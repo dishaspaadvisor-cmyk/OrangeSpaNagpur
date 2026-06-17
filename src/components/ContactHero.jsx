@@ -35,11 +35,6 @@ export default function ContactHeroSection() {
             With Orange Spa
           </h1>
 
-          <div
-            className="mx-auto mt-8 h-1 w-24 rounded-full"
-            style={{ backgroundColor: SITE.brand }}
-          />
-
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
             Contact our team for bookings, enquiries, and personalized
             spa recommendations. We are always ready to assist you.

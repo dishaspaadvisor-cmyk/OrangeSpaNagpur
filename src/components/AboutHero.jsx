@@ -38,12 +38,6 @@ export default function AboutHeroSection() {
            Best Spa in Nagpur
           </h1>
 
-          {/* Orange Line */}
-          <div
-            className="mx-auto mt-6 h-1 w-16 rounded-full sm:mt-8 sm:w-24"
-            style={{ backgroundColor: SITE.brand }}
-          />
-
           {/* Description */}
           <p className="mx-auto mt-6 max-w-3xl px-2 text-sm leading-7 text-gray-200 sm:text-base sm:leading-8 md:mt-8 md:text-xl md:leading-9">
             Orange Spa Nagpur offers premium massage therapies,

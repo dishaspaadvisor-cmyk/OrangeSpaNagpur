@@ -51,7 +51,7 @@ export default function HeroSection() {
               />
 
               {/* Light Overlay */}
-              <div className="absolute inset-0 bg-black/40" />
+              <div className="absolute inset-0 bg-black/40 " />
 
               {/* Content */}
               <div className="absolute inset-0 flex items-center justify-center px-6 -mt-20 md:-mt-24">
@@ -72,12 +72,6 @@ export default function HeroSection() {
                   <h1 className="mt-4 text-4xl font-bold leading-tight md:text-6xl lg:text-7xl">
                     {slide.title}
                   </h1>
-
-                  {/* Orange Line */}
-                  <div
-                    className="mx-auto mt-8 h-1 w-24 rounded-full"
-                    style={{ backgroundColor: SITE.brand }}
-                  />
 
                   {/* Description */}
                   <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
