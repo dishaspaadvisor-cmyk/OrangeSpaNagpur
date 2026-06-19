@@ -35,18 +35,13 @@ export default function AboutHeroSection() {
 
           {/* Heading */}
           <h1 className="mt-6 text-3xl font-bold leading-tight sm:text-4xl md:mt-8 md:text-6xl">
-           Best Spa in Nagpur
+           Premium Spa & Wellness Center in Nagpur
           </h1>
 
-          {/* Description */}
-          <p className="mx-auto mt-6 max-w-3xl px-2 text-sm leading-7 text-gray-200 sm:text-base sm:leading-8 md:mt-8 md:text-xl md:leading-9">
-            Orange Spa Nagpur offers premium massage therapies,
-            wellness treatments, and a peaceful atmosphere designed
-            to relax your body, refresh your mind.
-          </p>
+          
 
           {/* Buttons */}
-          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:justify-center sm:gap-4">
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a
               href={`tel:${SITE.phoneCall}`}
               className="rounded-full px-8 py-4 text-center font-semibold text-white transition duration-300 hover:scale-105"

@@ -12,13 +12,13 @@ import "swiper/css/pagination";
 const slides = [
   {
     image: "/hero/hero1.jpg",
-    title: "Premium Spa & Massage",
+    title: "Best Spa in Nagpur",
     description:
       "Experience luxury wellness therapies, professional massage services, and complete relaxation at Orange Spa Nagpur.",
   },
   {
     image: "/hero/hero.jpg",
-    title: "Complete Wellness Experience",
+    title: "Expert Staff Is Available",
     description:
       "Refresh your body, calm your mind, and restore your energy with our premium spa treatments and expert therapists.",
   },
@@ -73,10 +73,6 @@ export default function HeroSection() {
                     {slide.title}
                   </h1>
 
-                  {/* Description */}
-                  <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
-                    {slide.description}
-                  </p>
 
                   {/* Buttons */}
                   <div className="mt-10 flex flex-wrap justify-center gap-4">
