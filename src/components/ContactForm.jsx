@@ -96,11 +96,11 @@ ${form.message}
                     </h3>
 
                     <p className="mt-2 leading-7 text-slate-600">
-                      Orange Spa Nagpur
+                      Shirish Building, 16, S Ambazari
                       <br />
-                      Premium Wellness & Spa Center
+                      Rd, Laxminagar, Nagpur,
                       <br />
-                      Nagpur, Maharashtra
+                      Maharashtra 440022
                     </p>
                   </div>
                 </div>
