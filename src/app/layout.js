@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="min-h-full flex flex-col">
-        {/* Google Ads Tag */}
+        {/* Google Ads Global Tag */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18253370063"
           strategy="afterInteractive"
@@ -48,9 +48,51 @@ export default function RootLayout({ children }) {
         <Script id="google-ads" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+
+            function gtag(){
+              dataLayer.push(arguments);
+            }
+
+            window.gtag = gtag;
+
             gtag('js', new Date());
+
             gtag('config', 'AW-18253370063');
+          `}
+        </Script>
+
+        {/* Purchase Conversion Event */}
+        <Script id="purchase-conversion" strategy="afterInteractive">
+          {`
+            gtag('event', 'conversion', {
+              'send_to': 'AW-18253370063/PxoBCJy1-8EcEM-l8f9D',
+              'value': 1.0,
+              'currency': 'INR',
+              'transaction_id': ''
+            });
+          `}
+        </Script>
+
+        {/* Global Conversion Function */}
+        <Script id="conversion-function" strategy="afterInteractive">
+          {`
+            window.gtag_report_conversion = function(url) {
+              var callback = function () {
+                if (typeof(url) !== 'undefined') {
+                  window.location = url;
+                }
+              };
+
+              gtag('event', 'conversion', {
+                'send_to': 'AW-18253370063/PxoBCJy1-8EcEM-l8f9D',
+                'value': 1.0,
+                'currency': 'INR',
+                'transaction_id': '',
+                'event_callback': callback
+              });
+
+              return false;
+            };
           `}
         </Script>
 
